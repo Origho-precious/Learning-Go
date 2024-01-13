@@ -24,7 +24,6 @@ func fileLen(path string) (int, error) {
 	byteCount := len(content)
 
 	return byteCount, nil
-
 }
 
 func main() {
@@ -32,5 +31,4 @@ func main() {
 
 	fmt.Println("Count: ", count)
 	fmt.Println("Err: ", err)
-
 }
